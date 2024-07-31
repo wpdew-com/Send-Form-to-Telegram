@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Отправляем данные с формы в Телеграм</title>
+  <!-- add bootstrap cdn -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- add fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- add jquery cdn -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="page">
+        <form action="#" class="form">
+          <!-- add bootstrap input -->
+        <div class="form-group">
+          <label for="name">Имя</label>
+          <input id="name" required type="text" name="name" placeholder="Имя" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="phone">Телефон</label>
+          <input id="phone" required type="tel" name="phone" placeholder="Телефон" class="form-control">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Надіслати</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
