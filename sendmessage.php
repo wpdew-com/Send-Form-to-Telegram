@@ -12,10 +12,10 @@
   if(trim($content)){
     $content = "<b>Повідомлення з сайту:</b>\n".$content;
     // Ваш бот токен из @BotFather
-    $apiToken = "6762078585:AAEZlGIvmPekL5sMrni3Sn_jRnyywd-wlI0";
+    $apiToken = "";
     $data = [
       // Username чата
-      'chat_id' => '538859973',
+      'chat_id' => '',
       'text' => $content,
       'parse_mode' => 'HTML'
     ];
