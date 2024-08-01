@@ -1,18 +1,18 @@
 site_name: Довідник по формі замовлення
 
 # Repository
-repo_name: wpdew-com/order_landing
-repo_url: https://github.com/wpdew-com/order_landing/
+repo_name: wpdew-com/Send-Form-to-Telegram
+repo_url: https://github.com/wpdew-com/Send-Form-to-Telegram/
 edit_uri: ""
 
 nav:
     - Головна: index.md
-    - Файл order.php: order.md
-    - Форми: form.md
+    #- Файл order.php: order.md
+    #- Форми: form.md
     #- MD Розмітка: md.md
-    - Допродаж UPSELL v2.6: upsell.md
-    - Опис полів: command.md
-    - Хостинг Домен СРМ: hosting.md
+    #- Допродаж UPSELL v2.6: upsell.md
+    #- Опис полів: command.md
+    #- Хостинг Домен СРМ: hosting.md
 
 theme:
   name: material
@@ -58,7 +58,7 @@ extra:
       link: https://t.me/weblightning
       name: "Група Блискавка в Telegram"
     - icon: fontawesome/brands/github
-      link: https://github.com/wpdew-com/order_landing/
+      link: https://github.com/wpdew/wpdew/
       name: GitHub
     - icon: fontawesome/brands/google
       link: https://wpdew.com
